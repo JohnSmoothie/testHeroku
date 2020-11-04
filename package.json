@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
-    "start": "live-server --port=9090",
+    "start": "gulp-live-server --port=9090",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -13,5 +12,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp-live-server": "0.0.31",
+    "live-server": "^1.2.1"
+  }
 }
